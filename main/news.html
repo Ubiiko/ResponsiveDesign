@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--
+* CoreUI - Free Bootstrap Admin Template
+* @version v4.2.2
+* @link https://coreui.io/product/free-bootstrap-admin-template/
+* Copyright (c) 2023 creativeLabs Łukasz Holeczek
+* Licensed under MIT (https://github.com/coreui/coreui-free-bootstrap-admin-template/blob/main/LICENSE)
+-->
+
+<html lang="en">
+
+<head>
+  <base href="./">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
+  <meta name="author" content="Łukasz Holeczek">
+  <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
+  <title>CoreUI Free Bootstrap Admin Template</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+  <!-- ... (other favicon links) ... -->
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Vendors styles-->
+  <link rel="stylesheet" href="node_modules/simplebar/dist/simplebar.css">
+  <link rel="stylesheet" href="css/vendors/simplebar.css">
+  <!-- Main styles for this application-->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- We use those styles to show code examples, you should remove them in your application.-->
+  <link href="css/examples.css" rel="stylesheet">
+  <!-- Styles for the actualités -->
+  <link href="css/actualites.css" rel="stylesheet">
+</head>
+
+<body>
+  <div w3-include-html="sidebar.html" class="sidebar sidebar-dark sidebar-fixed" id="sidebar"></div>
+
+  <div class="wrapper d-flex flex-column min-vh-100 bg-light">
+    <header class="header header-sticky mb-4">
+      <div w3-include-html="navbar.html" class="container-fluid"></div>
+      <div class="header-divider"></div>
+      <div class="container-fluid">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb my-0 ms-2">
+            <li class="breadcrumb-item">
+              <span>Page d'accueil</span>
+            </li>
+            <li class="breadcrumb-item active"><span>Actualités</span></li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Actualités Section -->
+    <section class="container mt-4">
+      <h2 class="mb-4">Dernières actualités</h2>
+
+      <!-- Actualité 1 -->
+      <div class="card mb-4">
+        <img src="actuPictures/actu1.jpg" class="card-img-top" alt="Actualité 1">
+        <div class="card-body">
+          <h5 class="card-title">Jeux olympiques de Paris 2024: tous nos conseils pour toucher le jackpot en louant
+            votre appartement</h5>
+          <p class="card-text">Deux mille euros la nuitée pour séjourner dans un appartement parisien, 20.000 euros à
+            Marseille pour une villa sur la Corniche, avec vue sur les épreuves de voile… Du 26 juillet au 11 août 2024,
+            les tarifs des locations saisonnières s’envolent dans les villes accueillant des épreuves olympiques. Avec
+            11,3 millions de visiteurs attendus en région parisienne et en province (Bordeaux, Nantes, Lyon, Nice,
+            Marseille, Saint-Étienne, Châteauroux et Villeneuve-d’Ascq), les besoins en logement devraient être élevés.
+            Mais on ne s’improvise pas loueur en meublé.
+          </p>
+          <a href="https://www.lefigaro.fr/finances-perso/jeux-olympiques-de-paris-2024-tous-nos-conseils-pour-toucher-le-jackpot-en-louant-votre-appartement-20231006"
+            class="btn btn-primary">Lire la suite</a>
+        </div>
+      </div>
+
+      <!-- Actualité 2 -->
+      <div class="card mb-4">
+        <img src="actuPictures/actu2.jpg" class="card-img-top" alt="Actualité 2">
+        <div class="card-body">
+          <h5 class="card-title">Une réglementation coercitive contraint les bailleurs possédant des passoires
+            thermiques à engager de lourds travaux de rénovation pour pouvoir continuer à les louer. Cela contribue à la
+            pénurie de bienssur le marché locatif.</h5>
+          <p class="card-text">Avec le renforcement de l'impératif de sobriété énergétique et les premières
+            interdictions de louer, les propriétaires de passoires thermiques n'ont déjà plus le choix. Ils doivent
+            faire des travaux, ou se séparer de leur bien. Beaucoup ont déjà opté pour la seconde solution, contribuant
+            à assécher le marché locatif. Malgré le renforcement des aides publiques, la transition énergétique demeure
+            pour la plupart un difficile changement de paradigme.
+          </p>
+          <a href="https://www.lefigaro.fr/finances-perso/passoires-thermiques-vendre-ou-renover-il-faut-choisir-20231006"
+            class="btn btn-primary">Lire la suite</a>
+        </div>
+      </div>
+
+      <!-- Ajoutez plus d'actualités ici -->
+
+    </section>
+  </div>
+
+  <script src="node_modules/@coreui/coreui/dist/js/coreui.bundle.min.js"></script>
+  <script src="node_modules/simplebar/dist/simplebar.min.js"></script>
+  <!-- Plugins and scripts required by this view-->
+  <script src="node_modules/chart.js/dist/chart.min.js"></script>
+  <script src="node_modules/@coreui/chartjs/dist/js/coreui-chartjs.js"></script>
+  <script src="node_modules/@coreui/utils/dist/coreui-utils.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/includeHTML.js"></script>
+</body>
+
+</html>
